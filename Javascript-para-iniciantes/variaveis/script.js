@@ -4,11 +4,13 @@ let idade = 23;
 const possuiFaculdade = true;
 console.log(nome, idade, possuiFaculdade);
 
+
 // Evitar repetições
 var preco = 25;
 var totalComprado = 5;
 var totalPreco = totalComprado * preco;
 console.log(totalPreco);
+
 
 // 2 em 1
 var sobrenome = 'Montório',
@@ -23,14 +25,15 @@ var semDefinir; // undefined
 // var function;
 // var 1possuifaculdade;
 
+
 /* Hoisting
   Variáveis são movidas para cima do código , porém o valor atribuido não é movido. */
-
 console.log(hoisting);
 var hoisting = 'teste'; // vai retornar undefined
 
 var hoisting2 = 'teste2';
 console.log(hoisting2);
+
 
 // Mudar o valor atribuído
 var time = 'vasco';
